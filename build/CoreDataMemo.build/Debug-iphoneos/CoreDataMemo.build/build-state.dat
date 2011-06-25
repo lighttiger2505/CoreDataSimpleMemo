@@ -1,0 +1,560 @@
+TCoreDataMemo
+v7
+r0
+t330160277.402022
+cCheck dependencies
+cCpResource build/Debug-iphoneos/CoreDataMemo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/Info.plist CoreDataMemo-Info.plist
+cCompileXIB /Users/lighttiger2505/Desktop/CoreDataMemo/MainWindow.xib
+cProcessPCH /var/folders/Jv/JvHengT5F+GbF-C7fz6A+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMemo_Prefix-chenwflvcgvcdecpnbwwaplmmdlk/CoreDataMemo_Prefix.pch.gch CoreDataMemo_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Jv/JvHengT5F+GbF-C7fz6A+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMemo_Prefix-bfrvxvfupmrsrhdmxrjlxflvbjsy/CoreDataMemo_Prefix.pch.gch CoreDataMemo_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/CoreDataMemo.momd /Users/lighttiger2505/Desktop/CoreDataMemo/CoreDataMemo.xcdatamodeld
+cCompileC build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/main.o /Users/lighttiger2505/Desktop/CoreDataMemo/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/CoreDataMemoAppDelegate.o /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/CoreDataMemoAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/MemoViewController.o /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/MemoViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/DetailViewController.o /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/AddViewController.o /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/AddViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/main.o /Users/lighttiger2505/Desktop/CoreDataMemo/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/CoreDataMemoAppDelegate.o /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/CoreDataMemoAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/MemoViewController.o /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/MemoViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/DetailViewController.o /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/AddViewController.o /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/AddViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/CoreDataMemo normal armv6
+cLd /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/CoreDataMemo normal armv7
+cCreateUniversalBinary /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/CoreDataMemo normal "armv6 armv7"
+cGenerateDSYMFile /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app.dSYM /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/CoreDataMemo
+cProcessProductPackaging "/Users/lighttiger2505/Library/MobileDevice/Provisioning Profiles/55CB3F96-06A4-4B5F-BACA-F4A2AA2CD021.mobileprovision" /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/embedded.mobileprovision
+cTouch /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo.xcent
+cCodeSign /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D7EE1A20000000000000110
+t1300160930
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004D54D2640000000000303FF0
+t1297404516
+s3162096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004D54D243000000000000046B
+t1297404483
+s1131
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/Availability.h
+c000000004D4F74C20000000000001B19
+t1297052866
+s6937
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/AddViewController.h
+c000000004DFA0C290000000000000264
+t1308232745
+s612
+i<UIKit/UIKit.h>
+i"DetailViewController.h"
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/AddViewController.m
+c000000004DFA146F0000000000000614
+t1308234863
+s1556
+i"AddViewController.h"
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/CoreDataMemoAppDelegate.h
+c000000004DFA018C00000000000003E8
+t1308230028
+s1000
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/CoreDataMemoAppDelegate.m
+c000000004DFA06C50000000000001FE1
+t1308231365
+s8161
+i"CoreDataMemoAppDelegate.h"
+i"MemoViewController.h"
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.h
+c000000004DFA08CF0000000000000186
+t1308231887
+s390
+i<UIKit/UIKit.h>
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m
+c000000004DFDA21C000000000000067D
+t1308467740
+s1661
+i"DetailViewController.h"
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/MemoViewController.h
+c000000004DFA0C4A0000000000000336
+t1308232778
+s822
+i<UIKit/UIKit.h>
+i"AddViewController.h"
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/MemoViewController.m
+c000000004DFA19A70000000000002AE8
+t1308236199
+s10984
+i"MemoViewController.h"
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/CoreDataMemo.xcdatamodeld
+c000000004DFA0E950000000000000088
+t1308233365
+s136
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/CoreDataMemo_Prefix.pch
+c000000004DFA013A000000000000016C
+t1308229946
+s364
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/MainWindow.xib
+c000000004DFA013A00000000000021E3
+t1308229946
+s8675
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo.xcent
+t1308230030
+s430
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/AddViewController.o
+t1308236236
+s46976
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/CoreDataMemo
+t1308467476
+s39560
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/CoreDataMemo.LinkFileList
+c000000004DFA19CC00000000000002C8
+t1308236236
+s712
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/CoreDataMemoAppDelegate.o
+t1308236236
+s67808
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/DetailViewController.o
+t1308467475
+s49004
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/MemoViewController.o
+t1308236236
+s67884
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/main.o
+t1308230030
+s6456
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/AddViewController.o
+t1308236236
+s46868
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/CoreDataMemo
+t1308467476
+s39792
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/CoreDataMemo.LinkFileList
+c000000004DFA19CC00000000000002C8
+t1308236236
+s712
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/CoreDataMemoAppDelegate.o
+t1308236236
+s67588
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/DetailViewController.o
+t1308467475
+s48840
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/MemoViewController.o
+t1308236236
+s67468
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/main.o
+t1308230030
+s6440
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app
+t1308467477
+s374
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app.dSYM
+t1308467476
+s102
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/CoreDataMemo
+t1308467476
+s99056
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/CoreDataMemo.momd
+t1308236236
+s136
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/Info.plist
+t1308230028
+s858
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/MainWindow.nib
+t1308230029
+s1536
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/PkgInfo
+t1308230028
+s8
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/ResourceRules.plist
+t1308230028
+s485
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/embedded.mobileprovision
+t1308230030
+s8793
+
+N/Users/lighttiger2505/Desktop/CoreDataMemo/main.m
+c000000004DFA013A000000000000016D
+t1308229946
+s365
+i<UIKit/UIKit.h>
+
+N/Users/lighttiger2505/Library/MobileDevice/Provisioning Profiles/55CB3F96-06A4-4B5F-BACA-F4A2AA2CD021.mobileprovision
+c000000004DF266740000000000002259
+t1307731572
+s8793
+
+N/var/folders/Jv/JvHengT5F+GbF-C7fz6A+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMemo_Prefix-bfrvxvfupmrsrhdmxrjlxflvbjsy/CoreDataMemo_Prefix.pch.gch
+t1308230030
+s11205208
+
+N/var/folders/Jv/JvHengT5F+GbF-C7fz6A+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMemo_Prefix-chenwflvcgvcdecpnbwwaplmmdlk/CoreDataMemo_Prefix.pch.gch
+t1308230030
+s10742360
+
+NCoreDataMemo-Info.plist
+c000000004DFA013A000000000000038D
+t1308229946
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies330160273#330160274#0(0"0(0#1#0"27303364805329008#0"0#
+
+CCodeSign /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app
+s330160276.939011
+e330160277.401848
+r1
+xCodeSign
+x/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app
+lSLF07#2@46"CodeSign build/Debug-iphoneos/CoreDataMemo.app330160276#330160277#0(0"0(0#0#80"/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app8606351968#693"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: toshikazu ohashi (793H24269M)" --resource-rules=/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/ResourceRules.plist --entitlements /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo.xcent /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app0#
+
+CCompileC build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/AddViewController.o /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/AddViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s329929036.477431
+e329929036.588379
+r1
+xCompileC
+xbuild/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/AddViewController.o
+x/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/AddViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/AddViewController.m329929036#329929036#0(0"0(0#0#70"/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/AddViewController.m8653824736#1902"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-generated-files.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-own-target-headers.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-all-target-headers.hmap -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-project-headers.hmap -F/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/include -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources/armv6 -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources -include /var/folders/Jv/JvHengT5F+GbF-C7fz6A+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMemo_Prefix-chenwflvcgvcdecpnbwwaplmmdlk/CoreDataMemo_Prefix.pch -c /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/AddViewController.m -o /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/AddViewController.o0#
+
+CCompileC build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/CoreDataMemoAppDelegate.o /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/CoreDataMemoAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s329929036.426621
+e329929036.627124
+r1
+xCompileC
+xbuild/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/CoreDataMemoAppDelegate.o
+x/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/CoreDataMemoAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/CoreDataMemoAppDelegate.m329929036#329929036#0(0"0(0#0#76"/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/CoreDataMemoAppDelegate.m8634694368#1914"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-generated-files.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-own-target-headers.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-all-target-headers.hmap -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-project-headers.hmap -F/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/include -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources/armv6 -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources -include /var/folders/Jv/JvHengT5F+GbF-C7fz6A+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMemo_Prefix-chenwflvcgvcdecpnbwwaplmmdlk/CoreDataMemo_Prefix.pch -c /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/CoreDataMemoAppDelegate.m -o /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/CoreDataMemoAppDelegate.o0#
+
+CCompileC build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/DetailViewController.o /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s330160274.162626
+e330160275.604517
+r1
+xCompileC
+xbuild/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/DetailViewController.o
+x/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m: In function '-[DetailViewController viewDidLoad]':
+o/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m:28: warning: no '-addobserver:selector:name:object:' method found
+o/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m:28: warning: (Messages without a matching method signature
+o/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m:28: warning: will be assumed to return 'id' and accept
+o/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m:28: warning: '...' as arguments.)
+o/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m: In function '-[DetailViewController saveMemo]':
+o/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m:40: warning: 'NSManagedObject' may not respond to '-save:'
+lSLF07#2@81"Compile /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m330160274#330160275#0(892"/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m: In function '-[DetailViewController viewDidLoad]':/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m:28: warning: no '-addobserver:selector:name:object:' method found/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m:28: warning: (Messages without a matching method signature/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m:28: warning: will be assumed to return 'id' and accept/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m:28: warning: '...' as arguments.)/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m: In function '-[DetailViewController saveMemo]':/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m:40: warning: 'NSManagedObject' may not respond to '-save:'3(22@52"No '-addobserver:selector:name:object:' method found330160275#126#140#0(6@73"/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m330160273#28#0#28#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)330160275#266#133#0(6@73"/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m330160273#28#0#28#0#0"0(22@45"'NSManagedObject' may not respond to '-save:'330160275#759#133#0(6@73"/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m330160273#40#0#40#0#26"'*' may not respond to '*'0(0#0#73"/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m7665776580704888832#1908"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-generated-files.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-own-target-headers.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-all-target-headers.hmap -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-project-headers.hmap -F/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/include -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources/armv6 -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources -include /var/folders/Jv/JvHengT5F+GbF-C7fz6A+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMemo_Prefix-chenwflvcgvcdecpnbwwaplmmdlk/CoreDataMemo_Prefix.pch -c /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m -o /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/DetailViewController.o0#
+
+CCompileC build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/MemoViewController.o /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/MemoViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s329929036.427669
+e329929036.638788
+r1
+xCompileC
+xbuild/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/MemoViewController.o
+x/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/MemoViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/MemoViewController.m329929036#329929036#0(0"0(0#0#71"/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/MemoViewController.m8631807264#1904"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-generated-files.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-own-target-headers.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-all-target-headers.hmap -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-project-headers.hmap -F/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/include -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources/armv6 -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources -include /var/folders/Jv/JvHengT5F+GbF-C7fz6A+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMemo_Prefix-chenwflvcgvcdecpnbwwaplmmdlk/CoreDataMemo_Prefix.pch -c /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/MemoViewController.m -o /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/MemoViewController.o0#
+
+CCompileC build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/main.o /Users/lighttiger2505/Desktop/CoreDataMemo/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s329922830.396885
+e329922830.688053
+r1
+xCompileC
+xbuild/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/main.o
+x/Users/lighttiger2505/Desktop/CoreDataMemo/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/lighttiger2505/Desktop/CoreDataMemo/main.m329922830#329922830#0(0"0(0#0#49"/Users/lighttiger2505/Desktop/CoreDataMemo/main.m8615649536#1868"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-generated-files.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-own-target-headers.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-all-target-headers.hmap -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-project-headers.hmap -F/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/include -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources/armv6 -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources -include /var/folders/Jv/JvHengT5F+GbF-C7fz6A+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMemo_Prefix-chenwflvcgvcdecpnbwwaplmmdlk/CoreDataMemo_Prefix.pch -c /Users/lighttiger2505/Desktop/CoreDataMemo/main.m -o /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/AddViewController.o /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/AddViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s329929036.713586
+e329929036.808085
+r1
+xCompileC
+xbuild/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/AddViewController.o
+x/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/AddViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/AddViewController.m329929036#329929036#0(0"0(0#0#70"/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/AddViewController.m8604501472#1902"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-generated-files.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-own-target-headers.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-all-target-headers.hmap -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-project-headers.hmap -F/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/include -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources/armv7 -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources -include /var/folders/Jv/JvHengT5F+GbF-C7fz6A+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMemo_Prefix-bfrvxvfupmrsrhdmxrjlxflvbjsy/CoreDataMemo_Prefix.pch -c /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/AddViewController.m -o /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/AddViewController.o0#
+
+CCompileC build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/CoreDataMemoAppDelegate.o /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/CoreDataMemoAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s329929036.588854
+e329929036.713431
+r1
+xCompileC
+xbuild/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/CoreDataMemoAppDelegate.o
+x/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/CoreDataMemoAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/CoreDataMemoAppDelegate.m329929036#329929036#0(0"0(0#0#76"/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/CoreDataMemoAppDelegate.m8650516352#1914"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-generated-files.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-own-target-headers.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-all-target-headers.hmap -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-project-headers.hmap -F/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/include -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources/armv7 -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources -include /var/folders/Jv/JvHengT5F+GbF-C7fz6A+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMemo_Prefix-bfrvxvfupmrsrhdmxrjlxflvbjsy/CoreDataMemo_Prefix.pch -c /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/CoreDataMemoAppDelegate.m -o /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/CoreDataMemoAppDelegate.o0#
+
+CCompileC build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/DetailViewController.o /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s330160274.198040
+e330160275.628348
+r1
+xCompileC
+xbuild/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/DetailViewController.o
+x/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m: In function '-[DetailViewController viewDidLoad]':
+o/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m:28: warning: no '-addobserver:selector:name:object:' method found
+o/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m:28: warning: (Messages without a matching method signature
+o/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m:28: warning: will be assumed to return 'id' and accept
+o/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m:28: warning: '...' as arguments.)
+o/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m: In function '-[DetailViewController saveMemo]':
+o/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m:40: warning: 'NSManagedObject' may not respond to '-save:'
+lSLF07#2@81"Compile /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m330160274#330160275#0(892"/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m: In function '-[DetailViewController viewDidLoad]':/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m:28: warning: no '-addobserver:selector:name:object:' method found/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m:28: warning: (Messages without a matching method signature/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m:28: warning: will be assumed to return 'id' and accept/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m:28: warning: '...' as arguments.)/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m: In function '-[DetailViewController saveMemo]':/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m:40: warning: 'NSManagedObject' may not respond to '-save:'3(22@52"No '-addobserver:selector:name:object:' method found330160275#126#140#0(6@73"/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m330160273#28#0#28#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)330160275#266#133#0(6@73"/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m330160273#28#0#28#0#0"0(22@45"'NSManagedObject' may not respond to '-save:'330160275#759#133#0(6@73"/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m330160273#40#0#40#0#26"'*' may not respond to '*'0(0#0#73"/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m8614840352#1908"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-generated-files.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-own-target-headers.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-all-target-headers.hmap -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-project-headers.hmap -F/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/include -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources/armv7 -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources -include /var/folders/Jv/JvHengT5F+GbF-C7fz6A+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMemo_Prefix-bfrvxvfupmrsrhdmxrjlxflvbjsy/CoreDataMemo_Prefix.pch -c /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/DetailViewController.m -o /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/DetailViewController.o0#
+
+CCompileC build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/MemoViewController.o /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/MemoViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s329929036.598675
+e329929036.751590
+r1
+xCompileC
+xbuild/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/MemoViewController.o
+x/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/MemoViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/MemoViewController.m329929036#329929036#0(0"0(0#0#71"/Users/lighttiger2505/Desktop/CoreDataMemo/Classes/MemoViewController.m8648599936#1904"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-generated-files.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-own-target-headers.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-all-target-headers.hmap -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-project-headers.hmap -F/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/include -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources/armv7 -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources -include /var/folders/Jv/JvHengT5F+GbF-C7fz6A+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMemo_Prefix-bfrvxvfupmrsrhdmxrjlxflvbjsy/CoreDataMemo_Prefix.pch -c /Users/lighttiger2505/Desktop/CoreDataMemo/Classes/MemoViewController.m -o /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/MemoViewController.o0#
+
+CCompileC build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/main.o /Users/lighttiger2505/Desktop/CoreDataMemo/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s329922830.557002
+e329922830.682289
+r1
+xCompileC
+xbuild/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/main.o
+x/Users/lighttiger2505/Desktop/CoreDataMemo/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/lighttiger2505/Desktop/CoreDataMemo/main.m329922830#329922830#0(0"0(0#0#49"/Users/lighttiger2505/Desktop/CoreDataMemo/main.m8615660128#1868"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-generated-files.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-own-target-headers.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-all-target-headers.hmap -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-project-headers.hmap -F/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/include -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources/armv7 -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources -include /var/folders/Jv/JvHengT5F+GbF-C7fz6A+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMemo_Prefix-bfrvxvfupmrsrhdmxrjlxflvbjsy/CoreDataMemo_Prefix.pch -c /Users/lighttiger2505/Desktop/CoreDataMemo/main.m -o /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/lighttiger2505/Desktop/CoreDataMemo/MainWindow.xib
+s329922828.833488
+e329922829.185092
+r1
+xCompileXIB
+x/Users/lighttiger2505/Desktop/CoreDataMemo/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib329922828#329922829#0(0"0(0#0#57"/Users/lighttiger2505/Desktop/CoreDataMemo/MainWindow.xib8606958432#559"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/MainWindow.nib /Users/lighttiger2505/Desktop/CoreDataMemo/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCpResource build/Debug-iphoneos/CoreDataMemo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s329922828.803211
+e329922828.833378
+r1
+xCpResource
+xbuild/Debug-iphoneos/CoreDataMemo.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist329922828#329922828#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist3329055351827817984#507"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app0#
+
+CCreateUniversalBinary /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/CoreDataMemo normal "armv6 armv7"
+s330160276.722669
+e330160276.771100
+r1
+xCreateUniversalBinary
+x/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/CoreDataMemo
+xnormal
+xarmv6 armv7
+lSLF07#2@93"CreateUniversalBinary build/Debug-iphoneos/CoreDataMemo.app/CoreDataMemo normal "armv6 armv7"330160276#330160276#0(0"0(0#0#54"/Users/lighttiger2505/Desktop/CoreDataMemo/armv6 armv78606187712#574"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/CoreDataMemo /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/CoreDataMemo -output /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/CoreDataMemo0#
+
+CDataModelVersionCompile /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/CoreDataMemo.momd /Users/lighttiger2505/Desktop/CoreDataMemo/CoreDataMemo.xcdatamodeld
+s329929036.425692
+e329929036.477286
+r1
+xDataModelVersionCompile
+x/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/CoreDataMemo.momd
+x/Users/lighttiger2505/Desktop/CoreDataMemo/CoreDataMemo.xcdatamodeld
+lSLF07#2@105"DataModelVersionCompile build/Debug-iphoneos/CoreDataMemo.app/CoreDataMemo.momd CoreDataMemo.xcdatamodeld329929036#329929036#0(0"0(0#0#68"/Users/lighttiger2505/Desktop/CoreDataMemo/CoreDataMemo.xcdatamodeld8637572864#370"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc /Users/lighttiger2505/Desktop/CoreDataMemo/CoreDataMemo.xcdatamodeld /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/CoreDataMemo.momd0#
+
+CGenerateDSYMFile /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app.dSYM /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/CoreDataMemo
+s330160276.771236
+e330160276.905473
+r1
+xGenerateDSYMFile
+x/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app.dSYM
+x/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/CoreDataMemo
+lSLF07#2@110"GenerateDSYMFile build/Debug-iphoneos/CoreDataMemo.app.dSYM build/Debug-iphoneos/CoreDataMemo.app/CoreDataMemo330160276#330160276#0(0"0(0#0#93"/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/CoreDataMemo8606570208#389"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/CoreDataMemo -o /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app.dSYM0#
+
+CLd /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/CoreDataMemo normal armv6
+s330160275.604653
+e330160276.722175
+r1
+xLd
+x/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/CoreDataMemo
+xnormal
+xarmv6
+lSLF07#2@140"Link /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/CoreDataMemo330160275#330160276#0(0"0(0#0#0"27303364805329008#929"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos -F/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos -filelist /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/CoreDataMemo.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv6/CoreDataMemo0#
+
+CLd /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/CoreDataMemo normal armv7
+s330160275.628440
+e330160276.722592
+r1
+xLd
+x/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/CoreDataMemo
+xnormal
+xarmv7
+lSLF07#2@140"Link /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/CoreDataMemo330160275#330160276#0(0"0(0#0#0"8614765824#929"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos -F/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos -filelist /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/CoreDataMemo.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/Objects-normal/armv7/CoreDataMemo0#
+
+CProcessInfoPlistFile /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/Info.plist CoreDataMemo-Info.plist
+s329922828.812016
+e329922828.819559
+r1
+xProcessInfoPlistFile
+x/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/Info.plist
+xCoreDataMemo-Info.plist
+lSLF07#2@31"Process CoreDataMemo-Info.plist329922828#329922828#0(0"0(0#0#66"/Users/lighttiger2505/Desktop/CoreDataMemo/CoreDataMemo-Info.plist8614919264#598"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CoreDataMemo-Info.plist -genpkginfo /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/ResourceRules.plist -o /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/Info.plist0#
+
+CProcessPCH /var/folders/Jv/JvHengT5F+GbF-C7fz6A+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMemo_Prefix-bfrvxvfupmrsrhdmxrjlxflvbjsy/CoreDataMemo_Prefix.pch.gch CoreDataMemo_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s329922829.186263
+e329922830.395932
+r1
+xProcessPCH
+x/var/folders/Jv/JvHengT5F+GbF-C7fz6A+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMemo_Prefix-bfrvxvfupmrsrhdmxrjlxflvbjsy/CoreDataMemo_Prefix.pch.gch
+xCoreDataMemo_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile CoreDataMemo_Prefix.pch329922829#329922830#0(0"0(0#0#66"/Users/lighttiger2505/Desktop/CoreDataMemo/CoreDataMemo_Prefix.pch8615467424#1757"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-generated-files.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-own-target-headers.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-all-target-headers.hmap -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-project-headers.hmap -F/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/include -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources/armv7 -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources -c /Users/lighttiger2505/Desktop/CoreDataMemo/CoreDataMemo_Prefix.pch -o /var/folders/Jv/JvHengT5F+GbF-C7fz6A+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMemo_Prefix-bfrvxvfupmrsrhdmxrjlxflvbjsy/CoreDataMemo_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Jv/JvHengT5F+GbF-C7fz6A+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMemo_Prefix-chenwflvcgvcdecpnbwwaplmmdlk/CoreDataMemo_Prefix.pch.gch CoreDataMemo_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s329922829.185262
+e329922830.390195
+r1
+xProcessPCH
+x/var/folders/Jv/JvHengT5F+GbF-C7fz6A+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMemo_Prefix-chenwflvcgvcdecpnbwwaplmmdlk/CoreDataMemo_Prefix.pch.gch
+xCoreDataMemo_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile CoreDataMemo_Prefix.pch329922829#329922830#0(0"0(0#0#66"/Users/lighttiger2505/Desktop/CoreDataMemo/CoreDataMemo_Prefix.pch8615664544#1757"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-generated-files.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-own-target-headers.hmap -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-all-target-headers.hmap -iquote /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo-project-headers.hmap -F/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/include -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources/armv6 -I/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/DerivedSources -c /Users/lighttiger2505/Desktop/CoreDataMemo/CoreDataMemo_Prefix.pch -o /var/folders/Jv/JvHengT5F+GbF-C7fz6A+k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMemo_Prefix-chenwflvcgvcdecpnbwwaplmmdlk/CoreDataMemo_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/lighttiger2505/Library/MobileDevice/Provisioning Profiles/55CB3F96-06A4-4B5F-BACA-F4A2AA2CD021.mobileprovision" /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/embedded.mobileprovision
+s329922830.803239
+e329922830.804835
+r1
+xProcessProductPackaging
+x/Users/lighttiger2505/Library/MobileDevice/Provisioning Profiles/55CB3F96-06A4-4B5F-BACA-F4A2AA2CD021.mobileprovision
+x/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/embedded.mobileprovision
+lSLF07#2@206"ProcessProductPackaging "/Users/lighttiger2505/Library/MobileDevice/Provisioning Profiles/55CB3F96-06A4-4B5F-BACA-F4A2AA2CD021.mobileprovision" build/Debug-iphoneos/CoreDataMemo.app/embedded.mobileprovision329922830#329922830#0(0"0(0#0#105"/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/embedded.mobileprovision8606399008#445"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/lighttiger2505/Library/MobileDevice/Provisioning Profiles/55CB3F96-06A4-4B5F-BACA-F4A2AA2CD021.mobileprovision" -o /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo.xcent
+s329922830.804942
+e329922830.827097
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo.xcent
+lSLF07#2@190"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo.xcent329922830#329922830#0(0"0(0#0#120"/Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo.xcent8606801888#455"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/lighttiger2505/Desktop/CoreDataMemo/build/CoreDataMemo.build/Debug-iphoneos/CoreDataMemo.build/CoreDataMemo.xcent0#
+
+CTouch /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app
+s330160276.905676
+e330160276.938806
+r1
+xTouch
+x/Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app
+lSLF07#2@86"Touch /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app330160276#330160276#0(0"0(0#0#0"8606671104#277"    cd /Users/lighttiger2505/Desktop/CoreDataMemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/lighttiger2505/Desktop/CoreDataMemo/build/Debug-iphoneos/CoreDataMemo.app0#
+
