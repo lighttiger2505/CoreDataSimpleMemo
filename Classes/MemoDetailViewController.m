@@ -65,6 +65,8 @@
 	
 	// 渡されたオブジェクトからメモの内容を表示させる。
 	self.textView.text = [memo valueForKey:@"text"];
+	// テキストを編集状態にする
+	[self.textView becomeFirstResponder];
 }
 
 /**
