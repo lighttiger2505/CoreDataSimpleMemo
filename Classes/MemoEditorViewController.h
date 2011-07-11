@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface MemoDetailViewController : UIViewController {
+@interface MemoEditorViewController : UIViewController {
 	UITextView *textView;
 	NSManagedObject *memo;
 }

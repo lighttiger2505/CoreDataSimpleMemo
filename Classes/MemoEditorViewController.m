@@ -6,10 +6,10 @@
 //  Copyright 2011 nagoya-bunri. All rights reserved.
 //
 
-#import "MemoDetailViewController.h"
+#import "MemoEditorViewController.h"
 
 
-@implementation MemoDetailViewController
+@implementation MemoEditorViewController
 
 @synthesize textView;
 @synthesize memo;

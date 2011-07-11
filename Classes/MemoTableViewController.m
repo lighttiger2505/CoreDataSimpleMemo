@@ -8,6 +8,8 @@
 
 #import "MemoTableViewController.h"
 
+#import "MemoEditorViewController.h"
+
 @implementation MemoTableViewController
 
 @synthesize fetchedResultsController;
@@ -78,17 +80,15 @@
 - (IBAction)addMemo:sender
 {
 	// 追加用ビューを作成。
-	MemoAddViewController *addViewController = [[MemoAddViewController alloc] init];
+	MemoEditorViewController *detailViewController = [[MemoEditorViewController alloc] init];
 	
 	// メモのエンティティを追加。
-	addViewController.memo = [NSEntityDescription insertNewObjectForEntityForName:@"Memo" inManagedObjectContext:self.managedObjectContext];
+	detailViewController.memo = [NSEntityDescription insertNewObjectForEntityForName:@"Memo" inManagedObjectContext:self.managedObjectContext];
 	
 	// モーダルで追加メモの編集ビューを表示
-	UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:addViewController];
-    [self presentModalViewController:navController animated:YES];
+    [self.navigationController pushViewController:detailViewController animated:YES];
 	
-	[addViewController release];
-	[navController release];
+	[detailViewController release];
 }
 
 #pragma mark -
@@ -123,8 +123,10 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
-    // Configure the cell.
-    [self configureCell:cell atIndexPath:indexPath];
+	NSManagedObject *managedObject = [self.fetchedResultsController objectAtIndexPath:indexPath];
+	NSString *text = [[managedObject valueForKey:@"text"] description];
+    cell.textLabel.text = text;
+	
     return cell;
 }
 
@@ -147,7 +149,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
     // 選択したセルの情報の詳細表示ビューを作成して、そのビューに移動。
-    MemoDetailViewController *detailViewController = [[MemoDetailViewController alloc] init];
+    MemoEditorViewController *detailViewController = [[MemoEditorViewController alloc] init];
 	detailViewController.memo = [self.fetchedResultsController objectAtIndexPath:indexPath];
 	[self.navigationController pushViewController:detailViewController animated:YES];
     [detailViewController release];

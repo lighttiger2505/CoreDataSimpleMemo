@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MemoAddViewController.h"
 
 @interface MemoTableViewController : UITableViewController <NSFetchedResultsControllerDelegate>{
     NSFetchedResultsController *fetchedResultsController;

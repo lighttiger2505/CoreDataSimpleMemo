@@ -16,8 +16,7 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
 		7AF4C14213AA38E200825CA9 /* MemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4C14113AA38E200825CA9 /* MemoTableViewController.m */; };
-		7AF4C1D413AA401700825CA9 /* MemoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4C1D313AA401700825CA9 /* MemoDetailViewController.m */; };
-		7AF4C1E113AA410600825CA9 /* MemoAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4C1E013AA410600825CA9 /* MemoAddViewController.m */; };
+		7AF4C1D413AA401700825CA9 /* MemoEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF4C1D313AA401700825CA9 /* MemoEditorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +33,8 @@
 		32CA4F630368D1EE00C91783 /* CoreDataMemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataMemo_Prefix.pch; sourceTree = "<group>"; };
 		7AF4C14013AA38E200825CA9 /* MemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoTableViewController.h; sourceTree = "<group>"; };
 		7AF4C14113AA38E200825CA9 /* MemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoTableViewController.m; sourceTree = "<group>"; };
-		7AF4C1D213AA401700825CA9 /* MemoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoDetailViewController.h; sourceTree = "<group>"; };
-		7AF4C1D313AA401700825CA9 /* MemoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoDetailViewController.m; sourceTree = "<group>"; };
-		7AF4C1DF13AA410600825CA9 /* MemoAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoAddViewController.h; sourceTree = "<group>"; };
-		7AF4C1E013AA410600825CA9 /* MemoAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoAddViewController.m; sourceTree = "<group>"; };
+		7AF4C1D213AA401700825CA9 /* MemoEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoEditorViewController.h; sourceTree = "<group>"; };
+		7AF4C1D313AA401700825CA9 /* MemoEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoEditorViewController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoreDataMemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoreDataMemo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,14 +56,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7AF4C1DF13AA410600825CA9 /* MemoAddViewController.h */,
-				7AF4C1E013AA410600825CA9 /* MemoAddViewController.m */,
-				7AF4C1D213AA401700825CA9 /* MemoDetailViewController.h */,
-				7AF4C1D313AA401700825CA9 /* MemoDetailViewController.m */,
-				7AF4C14013AA38E200825CA9 /* MemoTableViewController.h */,
-				7AF4C14113AA38E200825CA9 /* MemoTableViewController.m */,
-				1D3623240D0F684500981E51 /* CoreDataMemoAppDelegate.h */,
-				1D3623250D0F684500981E51 /* CoreDataMemoAppDelegate.m */,
+				7ACA13DB13CB38C100F52160 /* AppDelegate */,
+				7ACA13DC13CB38CE00F52160 /* Memo */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -119,6 +110,26 @@
 				28D801B30F44B63D00FB423F /* CoreData.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7ACA13DB13CB38C100F52160 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* CoreDataMemoAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CoreDataMemoAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7ACA13DC13CB38CE00F52160 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				7AF4C1D213AA401700825CA9 /* MemoEditorViewController.h */,
+				7AF4C1D313AA401700825CA9 /* MemoEditorViewController.m */,
+				7AF4C14013AA38E200825CA9 /* MemoTableViewController.h */,
+				7AF4C14113AA38E200825CA9 /* MemoTableViewController.m */,
+			);
+			name = Memo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,8 +196,7 @@
 				1D3623260D0F684500981E51 /* CoreDataMemoAppDelegate.m in Sources */,
 				28193060112F816700ECF9B4 /* CoreDataMemo.xcdatamodeld in Sources */,
 				7AF4C14213AA38E200825CA9 /* MemoTableViewController.m in Sources */,
-				7AF4C1D413AA401700825CA9 /* MemoDetailViewController.m in Sources */,
-				7AF4C1E113AA410600825CA9 /* MemoAddViewController.m in Sources */,
+				7AF4C1D413AA401700825CA9 /* MemoEditorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -27,6 +27,7 @@
 	UINavigationController *aNavigationController = [[UINavigationController alloc] initWithRootViewController:memoViewController];
 	self.navigationController = aNavigationController;
 	[aNavigationController release];
+	[memoViewController release];
     
 	[self.window addSubview:self.navigationController.view];
     [self.window makeKeyAndVisible];
