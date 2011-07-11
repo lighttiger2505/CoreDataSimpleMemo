@@ -123,8 +123,11 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
+	// フェッチコントローラーからこのセルに対応するデータオブジェクトを取得 
 	NSManagedObject *managedObject = [self.fetchedResultsController objectAtIndexPath:indexPath];
+	// データオブジェクトからメモの内容を取り出す
 	NSString *text = [[managedObject valueForKey:@"text"] description];
+	// セルに反映する
     cell.textLabel.text = text;
 	
     return cell;

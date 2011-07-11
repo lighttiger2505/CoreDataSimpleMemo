@@ -46,11 +46,17 @@
 	
 	self.title = [self.memo valueForKey:@"text"];
 	
+	// ナビゲーションバー右にキーボードを隠すボタンを追加
+	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel 
+																							target:self 
+																							action:@selector(finish:)] autorelease];
+	
 	// テキスト入力のビューを作成して親のビューに追加。
 	UITextView *aTextView = [[UITextView alloc] init];
 	aTextView.frame = [[UIScreen mainScreen] bounds];
 	aTextView.font = [UIFont systemFontOfSize:20.0f];
 	aTextView.scrollEnabled = YES;
+	aTextView.delegate = self;
 	self.textView = aTextView;
 	[self.view addSubview:self.textView];
 	[aTextView release];
@@ -93,6 +99,50 @@
 		NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
 		exit(-1);  // Fail
 	}
+}
+
+
+
+/**
+ テキスト編集開始時に呼び出されるメソッド
+ */
+- (void)textViewDidBeginEditing:(UITextView *)handleTextView {
+	// このメソッドの送信元がメモの編集ビューならば
+	if(handleTextView == self.textView) {
+		// ビューのサイズをキーボードで隠れない程度に小さくする
+		CGRect  frame;
+		frame.origin.x = 0 ;
+		frame.origin.y = 0 ;
+		frame.size.width = 320 ;
+		frame.size.height = 232 ;
+		
+		handleTextView.frame = frame ;
+	}
+}
+
+/**
+ テキスト編集終了時に呼び出されるメソッド
+ */
+- (void)textViewDidEndEditing:(UITextView *)handleTextView {
+	// このメソッドの送信元がメモの編集ビューならば
+	if(handleTextView == self.textView) {
+		// ビューのサイズを画面一杯のサイズに戻す
+		CGRect  frame;
+		frame.origin.x = 0 ;
+		frame.origin.y = 0 ;
+		frame.size.width = 320 ;
+		frame.size.height = 480 ;
+		
+		handleTextView.frame = frame ;
+	}
+}
+
+/**
+ 右上のボタンを押すことでで実行されるコマンド
+ */
+-(IBAction)finish:(id)sender {
+	// キーボードを隠す処理
+	[textView resignFirstResponder];
 }
 
 @end

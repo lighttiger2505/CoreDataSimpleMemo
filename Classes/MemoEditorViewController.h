@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-
-@interface MemoEditorViewController : UIViewController {
+/**
+ メモを編集するビューのコントローラー
+ */
+@interface MemoEditorViewController : UIViewController <UITextViewDelegate>{
 	UITextView *textView;
 	NSManagedObject *memo;
 }
