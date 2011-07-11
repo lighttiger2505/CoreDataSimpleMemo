@@ -19,6 +19,7 @@
 @property(nonatomic, retain) UITextView *textView;
 @property(nonatomic, retain) NSManagedObject *memo;
 
-- (void)saveMemo:(id)sender;
+- (void)saveMemo;
+- (void)deleteMemo;
 
 @end

@@ -129,6 +129,8 @@
 	NSString *text = [[managedObject valueForKey:@"text"] description];
 	// セルに反映する
     cell.textLabel.text = text;
+	// セルに矢印のアクセサリを追加
+	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	
     return cell;
 }

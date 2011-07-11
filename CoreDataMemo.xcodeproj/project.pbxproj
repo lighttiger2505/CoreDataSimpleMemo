@@ -124,10 +124,10 @@
 		7ACA13DC13CB38CE00F52160 /* Memo */ = {
 			isa = PBXGroup;
 			children = (
-				7AF4C1D213AA401700825CA9 /* MemoEditorViewController.h */,
-				7AF4C1D313AA401700825CA9 /* MemoEditorViewController.m */,
 				7AF4C14013AA38E200825CA9 /* MemoTableViewController.h */,
 				7AF4C14113AA38E200825CA9 /* MemoTableViewController.m */,
+				7AF4C1D213AA401700825CA9 /* MemoEditorViewController.h */,
+				7AF4C1D313AA401700825CA9 /* MemoEditorViewController.m */,
 			);
 			name = Memo;
 			sourceTree = "<group>";

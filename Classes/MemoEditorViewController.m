@@ -82,23 +82,37 @@
 - (void)viewWillDisappear:(BOOL)animated {
 	[super viewWillDisappear:YES];
 	
-	// メモの保存を実行。
-	[self saveMemo:nil];
+	// 何も文字列を入力していない場合
+	if (textView.text.length == 0) {
+		// メモの削除を実行
+		[self deleteMemo];
+	}else {
+		// メモの保存を実行。
+		[self saveMemo];
+	}
 }
 
 /**
  メモを保存する。
  */
-- (void)saveMemo:(id)sender {
+- (void)saveMemo {
 	// 変更内容をデータオブジェクトに反映。
 	[self.memo setValue:self.textView.text forKey:@"text"];
 	
 	// コンテキストに保存内容を反映。
 	NSError *error;
-	if (![[self.memo managedObjectContext] save:&error]) {
+	if (![[memo managedObjectContext] save:&error]) {
 		NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
 		exit(-1);  // Fail
 	}
+}
+
+/** 
+ メモを削除する。
+ */
+- (void)deleteMemo {
+	// メモの削除を実行
+	[[memo managedObjectContext] deleteObject:memo];
 }
 
 
